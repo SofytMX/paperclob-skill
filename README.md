@@ -29,7 +29,7 @@ mcp/                            MCP server (Python) — pip install paperclob-mc
 Copy the skill into your skills directory (project-level `.claude/skills/` or user-level `~/.claude/skills/`):
 
 ```sh
-git clone https://github.com/https://github.com/SofytMX/paperclob-skill
+git clone https://github.com/SofytMX/paperclob-skill
 cp -r paperclob-skill/skills/polymarket-honest-sim ~/.claude/skills/
 ```
 
