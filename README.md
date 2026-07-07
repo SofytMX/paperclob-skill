@@ -36,7 +36,7 @@ cp -r paperclob-skill/skills/polymarket-honest-sim ~/.claude/skills/
 Once published to the skill marketplaces:
 
 ```sh
-npx clawhub@latest install polymarket-honest-sim   # placeholder — pending publication
+npx clawhub@latest install polymarket-honest-sim
 ```
 
 The skill triggers when you ask Claude to build or test a Polymarket bot, paper trade, or backtest a prediction-market strategy. It teaches the workflow and the honest interpretation of the verdict, and instructs the agent to fetch the always-current API contract from [`llms-full.txt`](https://paperclob.com/llms-full.txt) — so it never drifts from the server.
